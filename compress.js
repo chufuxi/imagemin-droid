@@ -8,7 +8,7 @@ const fse = require('fs-extra');
 const minimatch = require("minimatch");
 
 
-const helpMessage = 'Usage: node compress.js [resource path] [output path]'
+const helpMessage = 'imagemin-droid android-res-dir out-dir'
 
 function isDrawableDirName(name) {
   return name.includes('drawable')
