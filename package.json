@@ -1,0 +1,29 @@
+{
+  "name": "imagemin-droid",
+  "version": "1.0.0",
+  "description": "imgmin android pictures tool",
+  "main": "compress.js",
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "imagemin": "^5.2.1",
+    "imagemin-mozjpeg": "^6.0.0",
+    "imagemin-pngquant": "^5.0.0",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "bin": {
+    "imagemin-droid": "compress.js"
+  },
+  "engines": {
+  "node": ">=4"
+  },
+  "repository": {
+   "type": "git",
+   "url": "https://github.com/chufuxi/imagemin-droid.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chufuxi",
+  "license": "ISC"
+}
