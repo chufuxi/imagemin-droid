@@ -1,5 +1,9 @@
 #imagemin-droid
-> Minify images for android project
+> Minify images for android project.
+> Shrink png/jpg files in res directory.
+
+##Requirement
+node & npm
 
 ##Install
 	$ npm install --global imagemin-droid
@@ -12,6 +16,7 @@
 
 ##Related
 - [imagemin](https://github.com/imagemin/imagemin) - API for this module
+- [imagemin-cli](https://github.com/imagemin/imagemin-cli) - Common command tool
 
 ## License
 
